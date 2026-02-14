@@ -110,8 +110,6 @@
 </div>
 
 <script>
-// ... (Keep your existing Fetch and Echo scripts here) ...
-// Updated UI injection for the new style:
 document.addEventListener("DOMContentLoaded", function () {
     if (window.Echo) {
         window.Echo.channel('tasks')
